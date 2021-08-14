@@ -1,3 +1,24 @@
+# Deploy project
+    1.  console -> firebase login
+    2.  console -> firebase init
+    3.  console -> set: Hosting: Configure files for Firebase Hosting and (optionally) set  up GitHub Action deploys
+    4.  What do you want to use as your public directory? build
+    5.  Configure as a single-page app (rewrite all urls to /index.html)? (y/N) y
+    6.  Set up automatic builds and deploys with GitHub? (y/N) n
+
+    7. console -> npm run build
+    8. console -> firebase deploy
+
+## Links
+    Icons: https://material-ui.com/
+    Firebase
+    Redux
+
+## Packages
+    react-flip-move -> animate the appear of posts
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Available Scripts
